@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:greatplaces/screens/add_place_screen.dart';
 
 class PlacesListScreen extends StatelessWidget {
@@ -20,7 +18,7 @@ class PlacesListScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: Center(
+      body:const Center(
         child: CircularProgressIndicator(),
       ),
     );

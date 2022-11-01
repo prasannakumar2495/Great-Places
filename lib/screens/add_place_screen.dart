@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:greatplaces/widgets/image_input.dart';
 
 class AddPlaceScreen extends StatefulWidget {
